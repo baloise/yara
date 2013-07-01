@@ -18,8 +18,6 @@ import com.atlassian.plugins.rest.common.security.AnonymousAllowed;
 
 @Path("/repository")
 public class Repository {
-	// TODO answer
-	// https://answers.atlassian.com/questions/85082/automated-way-of-adding-repos-to-fisheye
 
 	private RepositoryAdminService repositoryAdminService;
 	private ImpersonationService impersonationService;
