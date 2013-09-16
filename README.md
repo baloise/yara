@@ -3,15 +3,15 @@ The API allows to create and delete a repository over HTTP.
 
 Usage:
 
-http://YOUR-FISHEYE-REST-CONTEXT/yara/1.0/repository/create/<NAME>/<URL>
+http://YOUR-FISHEYE-REST-CONTEXT/yara/1.0/repository/create/NAME/URL
 
-http://x10000760:3990/fecru/rest/yara/1.0/repository/create/baloise/file:!!!C:!dev!git!baloise
+http://localhost:3990/fecru/rest/yara/1.0/repository/create/baloise/file:!!!C:!dev!git!baloise
 
 (forward slashes are replaced with !)
 
-http://YOUR-FISHEYE-REST-CONTEXT/yara/1.0/repository/delete/<NAME>
+http://YOUR-FISHEYE-REST-CONTEXT/yara/1.0/repository/delete/NAME
 
-http://x10000760:3990/fecru/rest/yara/1.0/repository/create/baloise
+http://localhost:3990/fecru/rest/yara/1.0/repository/create/baloise
 
 
 Prerequisites
