@@ -38,7 +38,7 @@ public class Repository {
 				repositoryAdminService.create(repositoryData);
 				repositoryAdminService.disablePolling(name);
 				repositoryAdminService.enable(name);
-				repositoryAdminService.start(name);
+				repositoryAdminService.getIndexer(name).startFullReindexing();
 				return Response.ok("Repository " + name + " created at " + location).build();
 			}
 		};
