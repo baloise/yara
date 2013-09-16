@@ -11,7 +11,6 @@ import com.atlassian.crucible.spi.PluginId;
 import com.atlassian.crucible.spi.services.ImpersonationService;
 import com.atlassian.crucible.spi.services.Operation;
 import com.atlassian.fisheye.spi.admin.data.GitRepositoryData;
-import com.atlassian.fisheye.spi.admin.data.RepositoryData;
 import com.atlassian.fisheye.spi.admin.services.RepositoryAdminService;
 import com.atlassian.fisheye.spi.admin.services.RepositoryConfigException;
 import com.atlassian.plugins.rest.common.security.AnonymousAllowed;
